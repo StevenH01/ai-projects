@@ -9,16 +9,32 @@
   left: 0;
 }
 
+.new-chat-box {
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: left;
+  transition: ease 0.25s all;
+}
+
+.new-chat-box span {
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.new-chat-box:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
 .sidemenu {
   width: 260px;
-  border: 1px solid white;
   color: white;
   background-color: #202123;
+  padding: 10px;
 }
 
 .chat-box {
   flex: 1;
-  border: 1px solid white;
   background-color: #343541;
 }
 
